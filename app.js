@@ -29,6 +29,17 @@ var astronomy = prompt('do you like stars and unvers?');
 while (astronomy !== 'yes' && astronomy  !== 'no') {
   astronomy = prompt('yes or no just pls');
 }
+
+var stars = prompt('how many do you love our web rate us pls');
+
+if (stars > 5) {
+  stars = 5;
+}
+
+for(var s=0;s<stars;s++){
+      document.write('<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDvvIxXy4-x8TSIlWn-znOZirHvrsErjpxQw&usqp=CAU" width="50px">');
+}
+
   
 
   
