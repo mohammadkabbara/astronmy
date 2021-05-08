@@ -6,11 +6,13 @@ console.log(5=='50');
 var astronomy=prompt('do you like stars?');
 if(astronomy=='yes'){
   document.write('you are in your place');
-}else{document.write('find anthoer place')};
+}else{document.write('find anthoer place');
+}
  console.log('hello astronomy world');
 
 var yes = true;
 if(yes = true){
+
   console.log('you are in your place')
 }else{
   console.log('find anthoer place');
@@ -43,6 +45,8 @@ for(var s=0;s<stars;s++){
   
 
   
+
+
 
 
 
